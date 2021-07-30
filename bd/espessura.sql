@@ -1,0 +1,1 @@
+CREATE TABLE `espessura` ( `id_espessura` INT(9) NOT NULL AUTO_INCREMENT, `valor` INT(3) NOT NULL, `situacao` INT(1) DEFAULT 1, `dt_criacao` DATETIME, `dt_modificado` DATETIME, PRIMARY KEY (`id_espessura`) ); 
